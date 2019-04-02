@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  driver_id: MyString
+  passenger_id: MyString
+  status: MyString
+  address: MyString
+
+two:
+  driver_id: MyString
+  passenger_id: MyString
+  status: MyString
+  address: MyString

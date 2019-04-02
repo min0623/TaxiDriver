@@ -1,0 +1,23 @@
+ko:
+  user:
+    create:
+      success: "성공적으로 회원가입 되었습니다."
+    login:
+      success: "성공적으로 로그인 되었습니다."
+      fail: "이메일이나 비밀번호를 다시 확인해주세요."
+    errors:
+      email_taken: "이미 사용중인 이메일입니다."
+      invalid_role: "유효하지 않은 역할입니다."
+  allocation:
+    create:
+      success: "배차 요청이 생성되었습니다."
+    allocate:
+      success: "해당 요청이 배차되었습니다."
+      allocated: "이미 배차된 요청입니다."
+    errors:
+      invalid_passenger: "기사는 배차를 생성할 수 없습니다."
+      invalid_driver: "승객은 배차를 수락할 수 없습니다."
+      not_found: "배차 요청을 찾을 수 없습니다."
+  errors:
+    unauthorized: "로그인된 유저가 아닙니다."
+    required: "#{field}은(는) 필수입니다"
