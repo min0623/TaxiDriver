@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5562be24-e834-44dd-ac37-5e8b1e126cd5" name="Default Changelist" comment="" />
+    <list default="true" id="5562be24-e834-44dd-ac37-5e8b1e126cd5" name="Default Changelist" comment="Merge branch 'master' of https://github.com/min0623/TaxiDriver&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;README.md">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/log/" />
@@ -23,7 +28,7 @@
             <entry file="file://$PROJECT_DIR$/app/commands/create_user.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="165">
-                  <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+                  <caret line="11" selection-start-line="11" selection-end-line="11" />
                 </state>
               </provider>
             </entry>
@@ -32,7 +37,7 @@
             <entry file="file://$PROJECT_DIR$/app/commands/authenticate_user.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="415">
-                  <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+                  <caret line="41" selection-start-line="41" selection-end-line="41" />
                   <folding>
                     <element signature="e#552#577#0" expanded="true" />
                   </folding>
@@ -40,11 +45,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config/locales/ko.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="42" />
+                <state relative-caret-position="330">
+                  <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
                 </state>
               </provider>
             </entry>
@@ -57,7 +71,7 @@
             <entry file="file://$PROJECT_DIR$/app/controllers/allocations_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="180">
-                  <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+                  <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -66,7 +80,7 @@
             <entry file="file://$PROJECT_DIR$/app/models/allocation.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="315">
-                  <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+                  <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -84,7 +98,7 @@
             <entry file="file://$PROJECT_DIR$/app/models/user.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="375">
-                  <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+                  <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -93,7 +107,7 @@
             <entry file="file://$PROJECT_DIR$/app/commands/authorize_api_request.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
-                  <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+                  <caret column="15" selection-start-column="15" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
@@ -116,7 +130,11 @@
       <find>add</find>
       <find>invalid cre</find>
       <find>def add</find>
+      <find>/.bundle</find>
+      <find>/log/*</find>
+      <find>/storage/*</find>
       <find>errors.add</find>
+      <find>config</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,6 +175,8 @@
         <option value="$PROJECT_DIR$/app/commands/create_allocation.rb" />
         <option value="$PROJECT_DIR$/app/commands/create_user.rb" />
         <option value="$PROJECT_DIR$/app/commands/validate_request_params.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -335,15 +355,16 @@
       <updated>1553867983651</updated>
       <workItem from="1553867985336" duration="26633000" />
       <workItem from="1554009620850" duration="5291000" />
-      <workItem from="1554115706183" duration="6552000" />
+      <workItem from="1554115706183" duration="7052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38476000" />
+    <option name="totallyTimeSpent" value="38976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20879121" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -391,9 +412,8 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
+    <MESSAGE value="Merge branch 'master' of https://github.com/min0623/TaxiDriver&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/min0623/TaxiDriver&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;README.md" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lib/json_web_token.rb">
@@ -652,7 +672,7 @@
     <entry file="file://$PROJECT_DIR$/app/commands/create_user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -666,7 +686,7 @@
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -680,21 +700,21 @@
     <entry file="file://$PROJECT_DIR$/app/commands/authorize_api_request.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/allocation.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/commands/authenticate_user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="e#552#577#0" expanded="true" />
           </folding>
@@ -704,7 +724,7 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/allocations_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -717,8 +737,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/ko.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="42" />
+        <state relative-caret-position="330">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
